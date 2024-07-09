@@ -6,7 +6,7 @@ namespace CodeChallenge.Services.Services
     public class CardServices : ICardService
     {
         //define our list of card values and suits in order
-        private static readonly string[] Suits = { "Spades♠️", "Hearts♥️", "Clubs♣️", "Diamonds♦️" };
+        private static readonly string[] Suits = { "Spades", "Hearts", "Clubs", "Diamonds" };
         private static readonly string[] Cards = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
         private List<Card> _deck;
         //I know this wasn't a requirement but I felt weird about not keeping track of the cards that aren't in
